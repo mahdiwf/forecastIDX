@@ -1,5 +1,6 @@
 # forecastIDX
-Using time series to forecast Indonesian stock index
+Forecasting using regression (SARIMAX)
+To predict the Indonesian stock market (IDX/JKSE) at the first part of 2023: bullish or bear?
 # Annotations and Samplings
 IDX closing prices
 ![image](https://github.com/mahdiwf/forecastIDX/assets/163992115/e70a7fcd-0ea1-4d26-bce8-5bdaae1c7fbc)
