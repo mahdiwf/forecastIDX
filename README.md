@@ -1,5 +1,5 @@
 # forecastIDX
-Forecasting using regression (SARIMAX)
+Forecasting using regression (SARIMAX) <br>
 To predict the Indonesian stock market (IDX/JKSE) at the first part of 2023: bullish or bear?
 # Annotations and Samplings
 IDX closing prices
