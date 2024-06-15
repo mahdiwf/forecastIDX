@@ -14,5 +14,5 @@ IDX close price - six months forecast
 ![image](https://github.com/mahdiwf/forecastIDX/assets/163992115/29c8047f-21de-4cb1-9792-5a62c920c5d8)
 IDX close price - six months actual vs forecast
 ![image](https://github.com/mahdiwf/forecastIDX/assets/163992115/4e8315d8-3208-4180-b455-359c8252dc79)
-Eventhough they are not very close but it confirms that the first semester of 2023, the IDX/JKSE will trading in sideways/swing in the range 6500 to 7000.
-In the future to improve the performance, I will add more predictors/technical indicators.
+Even though they are not very close, it confirms that in the first semester of 2023, the IDX/JKSE will be in sideways/swing in the range of 6500 to 7000.<be>
+In the future, to improve the performance, I will add more predictors/technical indicators.
