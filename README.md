@@ -12,7 +12,14 @@ Observation:
 4) The stock price was sideways from mid 2022 to end 2022
 So, what will happen in 2023 semester 1?
 
-Decompose
+
+Decompose <br>
+Time series data can exhibit a variety of patterns, and it is often helpful to split a time series into several components (decompose), each representing an underlying pattern category. There are three types of time series patterns: trend, seasonality and cycles.<br>
+The trend and cycle can be combined into a single trend-cycle component (the trend). So, there will be 3 components: a trend component, a seasonal component, and a residual component (containing anything else in the time series). <br>
+
+Now I will decompose this IDX data.
+
+Decompose Results
 ![image](https://github.com/mahdiwf/forecastIDX/assets/163992115/f732e230-c2e5-40eb-b1aa-85a4950cfea1)
 
 Observation:
@@ -23,6 +30,9 @@ Observation:
 3) Residuals: the index price is susceptible to random shocks and noise. Of course, this is the stock market.
 
 Model diagnostics
+
+Now, I will call plot_diagnostics to ensure that this model produces a satisfactory fit, i.e., the residuals of our model are uncorrelated and normally distributed with zero mean.
+
 ![image](https://github.com/mahdiwf/forecastIDX/assets/163992115/ebaf8e06-95d1-42a5-b95e-a6b4e7a6bdcf)
 
 It is not perfect, however, our model diagnostics suggest that the model residuals are nearly normally distributed.
@@ -48,3 +58,6 @@ In the future, to improve the performance, I will add more predictors/technical 
 Reference:<br>
 https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.html <br>
 https://www.digitalocean.com/community/tutorials/a-guide-to-time-series-forecasting-with-arima-in-python-3 <br>
+https://otexts.com/fpp2/decomposition.html <br>
+https://www.statsmodels.org/dev/generated/statsmodels.tsa.statespace.sarimax.SARIMAXResults.plot_diagnostics.html <br>
+https://learn.saylor.org/mod/book/tool/print/index.php?id=55332&chapterid=40915 <br>
