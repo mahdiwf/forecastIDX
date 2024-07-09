@@ -23,8 +23,8 @@ Decompose Results
 ![image](https://github.com/mahdiwf/forecastIDX/assets/163992115/f732e230-c2e5-40eb-b1aa-85a4950cfea1)
 
 Observation:
-1) Trend: downward trend followed by the mostly linear upward trend
-2) Seasonality: Interestingly, it seems there is seasonality every 2.5-3 years
+1) Trend: mostly linear upward trend
+2) Seasonality: Interestingly, it seems there is seasonality every 2.5-3 years. For example:
  * end of 2017 to 2020 (3+12+12 = 27 months)
  * early 2020 to mid 2022 (9+12+6 = 27 months)
 3) Residuals: the index price is susceptible to random shocks and noise. Of course, this is the stock market.
