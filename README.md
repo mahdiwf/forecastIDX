@@ -1,4 +1,4 @@
-# forecastIDX
+# Forecasting IDX/JKSE
 Forecasting using regression (SARIMAX) <br>
 To predict the Indonesian stock market (IDX/JKSE) at the first part of 2023: bullish or bearish?
 
@@ -52,8 +52,8 @@ Let's confirm with the actual.
 IDX close price - six months actual vs forecast
 ![image](https://github.com/mahdiwf/forecastIDX/assets/163992115/4e8315d8-3208-4180-b455-359c8252dc79)
 
-Even though they are not very close, it confirms that in the first semester of 2023, the IDX/JKSE will be slightly down in the range of 6500 to 7000.<be>
-In the future, to improve the performance, I will add more predictors/technical indicators.
+Even though they are not very close (this is just a forecast anyway!), it confirms that in the first semester of 2023, the IDX/JKSE will be trending down in the range of 6500 to 7000.<br>
+To improve the performance, probably I should add predictors/technical indicators.
 
 Reference:<br>
 https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.html <br>
