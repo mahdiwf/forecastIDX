@@ -2,7 +2,7 @@
 Forecasting using regression (SARIMAX) <br>
 To predict the Indonesian stock market (IDX/JKSE) at the first part of 2023: bullish or bearish?
 
-IDX closing prices
+IDX historical closing prices
 ![image](https://github.com/mahdiwf/forecastIDX/assets/163992115/e70a7fcd-0ea1-4d26-bce8-5bdaae1c7fbc)
 
 Observation:
@@ -27,7 +27,7 @@ Observation:
 2) Seasonality: Interestingly, it seems there is seasonality every 2.5-3 years. For example:
  * end of 2017 to 2020 (3+12+12 = 27 months)
  * early 2020 to mid 2022 (9+12+6 = 27 months)
-3) Residuals: the index price is susceptible to random shocks and noise. Of course, this is the stock market.
+3) Residuals: the index price is susceptible to random shocks and noise. Of course, this is the stock market. I shows big dip in 2020 (pandemic).
 
 Model diagnostics
 
@@ -35,7 +35,7 @@ Now, I will call plot_diagnostics to ensure that this model produces a satisfact
 
 ![image](https://github.com/mahdiwf/forecastIDX/assets/163992115/ebaf8e06-95d1-42a5-b95e-a6b4e7a6bdcf)
 
-It is not perfect, however, our model diagnostics suggest that the model residuals are nearly normally distributed.
+It is not perfect, however, our model diagnostics suggest that the model residuals are nearly normally distributed (except big dip in 2020).
 Points on the Normal Q-Q Plot indicate the univariate normality of the dataset. If the data is not normally distributed, the points will deviate from the reference line.
 
 IDX close price - Actual vs Forecast
