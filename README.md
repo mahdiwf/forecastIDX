@@ -14,7 +14,7 @@ So, what will happen in 2023 semester 1?
 
 
 Decompose <br>
-Time series data can exhibit a variety of patterns, and it is often helpful to split a time series into several components (decompose), each representing an underlying pattern category. There are three types of time series patterns: trend, seasonality and cycles.<br>
+Time series data can exhibit a variety of patterns, and it is often helpful to split a time series into several components (decompose), each representing an underlying pattern category. There are three types of time series patterns: trend, seasonality and cycles.
 The trend and cycle can be combined into a single trend-cycle component (the trend). So, there will be 3 components: a trend component, a seasonal component, and a residual component (containing anything else in the time series). <br>
 
 Now I will decompose this IDX data.
@@ -27,7 +27,7 @@ Observation:
 2) Seasonality: Interestingly, it seems there is seasonality every 2.5-3 years. For example:
  * end of 2017 to 2020 (3+12+12 = 27 months)
  * early 2020 to mid 2022 (9+12+6 = 27 months)
-3) Residuals: the index price is susceptible to random shocks and noise. Of course, this is the stock market. I shows big dip in 2020 (pandemic).
+3) Residuals: the index price is susceptible to random shocks and noise. Of course, this is the stock market. I shows big dip in 2020 (due to the pandemic).
 
 Model diagnostics
 
@@ -52,8 +52,8 @@ Let's confirm with the actual.
 IDX close price - six months actual vs forecast
 ![image](https://github.com/mahdiwf/forecastIDX/assets/163992115/4e8315d8-3208-4180-b455-359c8252dc79)
 
+Conclusion:<br>
 Even though they are not very close (this is just a forecast anyway!), it confirms that in the first semester of 2023, the IDX/JKSE will be trending down in the range of 6500 to 7000.<br>
-To improve the performance, probably I should add predictors/technical indicators.
 
 Reference:<br>
 https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.html <br>
